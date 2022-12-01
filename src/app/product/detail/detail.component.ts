@@ -30,7 +30,7 @@ export class DetailComponent implements OnInit{
   getProduct(id: number) {
     return this.productService.findById(id).subscribe(product => {
       this.productForm = new FormGroup({
-        productName: new FormControl(product.title),
+        title: new FormControl(product.title),
         price: new FormControl(product.price),
         description: new FormControl(product.description),
       });
