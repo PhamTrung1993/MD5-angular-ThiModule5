@@ -7,6 +7,7 @@ import {ListComponent} from "./list/list.component";
 import {EditComponent} from "./edit/edit.component";
 import {CreateComponent} from "./create/create.component";
 import {ReactiveFormsModule} from "@angular/forms";
+import { DetailComponent } from './detail/detail.component';
 
 
 
@@ -15,7 +16,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     ListComponent,
     CreateComponent,
     EditComponent,
-    DeleteComponent
+    DeleteComponent,
+    DetailComponent
   ],
   exports: [
     ListComponent

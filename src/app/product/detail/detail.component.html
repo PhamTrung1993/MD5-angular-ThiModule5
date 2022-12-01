@@ -1,5 +1,5 @@
-<h1>Xoá sản phẩm</h1>
-<form [formGroup]="productForm" (ngSubmit)="deleteProduct(id)">
+<h1>Chi tiết sản phẩm</h1>
+<form [formGroup]="productForm">
   <div [formGroup]="productForm">
     <table>
       <tr>
@@ -14,11 +14,6 @@
         <td>Mô tả về sản phẩm</td>
         <td><input type="text" formControlName="description"></td>
       </tr>
-      <tr>
-        <td></td>
-        <td><button class="btn btn-danger">Xoá</button></td>
-      </tr>
     </table>
   </div>
 </form>
-
